@@ -41,6 +41,16 @@ html {
  * A better looking default horizontal rule
  */
 
+ @font-face {
+  font-family: 'Railway-Alphabet-Bold';
+  src: url(/fonts/britrdn_.ttf);
+ }
+
+ @font-face {
+  font-family: 'Railway-Alphabet-Normal';
+  src: url(/fonts/britrln_.ttf);
+ }
+
 hr {
   display: block;
   height: 1px;
@@ -50,6 +60,23 @@ hr {
   padding: 0;
 }
 
+header {
+  padding: 5px;
+  text-align: center;
+  background: #123890;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+h1 {
+  font-family: 'Railway-Alphabet-Bold';
+  font-size: 50px;
+}
+
+body {
+  font-family: 'Railway-Alphabet-Normal';
+  margin: 0;
+}
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:

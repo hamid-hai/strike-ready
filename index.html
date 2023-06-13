@@ -24,22 +24,41 @@
 
 <body>
 
-  <!-- Add your site or application content here -->
   <header>
     <h1>Strike Ready</h1>
     <h2>Industrial Action dates from RMT, ASLEF and more directly into your calendar.</h2>
   </header>
+
+  <p>Add to Google, Apple and Outlook</p>
+
+  <!-- Different ways to handle URL copying -->
+
+  <!-- <input type="text" id="CALURL" name="Calendar URL" value="Calendar URL BLAH BLAH BLAH BLAH BLAH BLAH" readonly> -->
+  <!-- <span class="input" role="textbox" contenteditable readonly> Calendar URL BLAH BLAH BLAH BLAH BLAH BLAH </span> -->
+  <!-- <input type="text" value="A very long message.........." readonly="readonly" size="40" > -->
+
+  <!-- Going for Button method, allows for mobile-friendly design. No long URL's when viewed on mobile devices -->
+  <!-- Deep Link implementation, is handled differently depending on the client -->
+
+  <!-- Dummy Button -->
+  <a href="https://calendar.google.com" target="_blank" title="Save Event in my Calendar"><button>Add to Calendar</button></a>  
+
+  <!-- <a href="https://calendar.google.com/calendar/ical/en.uk%23holiday%40group.v.calendar.google.com/public/basic.ics" target="_blank" title="Save Event in my Calendar"><button>Add to Calendar</button></a>   -->
+
+
+  <p>Supported Operators</p>
   
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <!-- Google Analytics Script to implement at later date -->
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID.
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script> -->
 </body>
 
 </html>
